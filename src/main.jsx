@@ -313,7 +313,7 @@ function App() {
       </main>
 
       <footer>
-        <span>© {new Date().getFullYear()} Pavan Venkat Goud</span>
+        <span>© {new Date().getFullYear()}  PAVAN </span>
         <span>Built with React · V5</span>
       </footer>
     </div>
