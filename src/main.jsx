@@ -187,34 +187,70 @@ function App() {
             <p>College roles where I helped plan, build and lead technical initiatives.</p>
           </div>
 
-          <div className="timeline">
-            <article className="role-card">
-              <div className="role-year">02ND YEAR — MID 03RD YEAR</div>
-              <div className="role-main">
-                <span className="role-org">GOOGLE DEVELOPER STUDENT CLUB</span>
-                <h3>Event Planner</h3>
-                <p>
-                  Worked with organizers from other college GDSC clubs to coordinate
-                  technical events and promote them across student developer communities.
-                </p>
-              </div>
-              <span className="role-num">01</span>
-            </article>
+           <div className="timeline">
 
-            <article className="role-card">
-              <div className="role-year">03RD YEAR — 04TH YEAR</div>
-              <div className="role-main">
-                <span className="role-org">AR / VR LAB</span>
-                <h3>Tech Lead</h3>
-                <p>
-                  Led VR-focused technical activities using Unity, built VR projects,
-                  conducted a 3-day AR/VR workshop, and mentored juniors through
-                  hands-on development and experimentation.
-                </p>
-              </div>
-              <span className="role-num">02</span>
-            </article>
-          </div>
+  <article className="role-card">
+    <div className="role-year">01ST YEAR — 02ND YEAR</div>
+
+    <div className="role-main">
+      <span className="role-org">
+        INNOVATION & INCUBATION CLUB · ROBOTICS & AUTOMATION LAB
+      </span>
+
+      <h3>Lab Member</h3>
+
+      <p>
+        Worked as a member of the Robotics & Automation Lab under the
+        Innovation & Incubation Club, gaining early hands-on exposure
+        to robotics, automation and engineering projects.
+      </p>
+    </div>
+
+    <span className="role-num">01</span>
+  </article>
+
+
+  <article className="role-card">
+    <div className="role-year">02ND YEAR — MID 03RD YEAR</div>
+
+    <div className="role-main">
+      <span className="role-org">
+        GOOGLE DEVELOPER STUDENT CLUB
+      </span>
+
+      <h3>Event Planner</h3>
+
+      <p>
+        Worked with organizers from other college GDSC clubs to coordinate
+        technical events and promote them across student developer communities.
+      </p>
+    </div>
+
+    <span className="role-num">02</span>
+  </article>
+
+
+  <article className="role-card">
+    <div className="role-year">03RD YEAR — 04TH YEAR</div>
+
+    <div className="role-main">
+      <span className="role-org">
+        AR / VR LAB
+      </span>
+
+      <h3>Tech Lead</h3>
+
+      <p>
+        Led VR-focused technical activities using Unity, built VR projects,
+        conducted a 3-day AR/VR workshop, and mentored juniors through
+        hands-on development and experimentation.
+      </p>
+    </div>
+
+    <span className="role-num">03</span>
+  </article>
+
+</div>
 
           <div className="credentials-grid">
             <article className="credential-card">
@@ -278,7 +314,7 @@ function App() {
 
       <footer>
         <span>© {new Date().getFullYear()} Pavan Venkat Goud</span>
-        <span>Built with React · V1</span>
+        <span>Built with React · V5</span>
       </footer>
     </div>
   );
