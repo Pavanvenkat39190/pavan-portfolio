@@ -282,10 +282,18 @@ function App() {
               <h2>Certifications & learning</h2>
             </div>
             <div className="achievement-list">
-              <span>GOOGLE CLOUD</span>
-              <span>AWS</span>
-              <span>ISRO · WORKSHOP</span>
+              <span>56 GOOGLE CLOUD SKILL BADGES</span>
+              <span>AWS ACADEMY GRADUATE · CLOUD FOUNDATIONS</span>
+              <span>ISRO · 2 WEEKS WORKSHOP</span>
             </div>
+            <a
+  className="text-link"
+  href="https://www.credly.com/users/bollikonda-pavan-venkat-goud"
+  target="_blank"
+  rel="noreferrer"
+>
+  View my Credly badges <ArrowUpRight size={16} />
+</a>
           </div>
 
           <div className="future-card">
@@ -297,6 +305,7 @@ function App() {
             </p>
             <span className="coming">NEXT UPDATE</span>
           </div>
+ 
         </section>
 
         <section id="contact" className="section contact">

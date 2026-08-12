@@ -220,7 +220,54 @@ section[id] { scroll-margin-top: 100px; }
 .credential-type { color:#6eaaff; font:9px ui-monospace,monospace; letter-spacing:.15em; margin-top:auto; margin-bottom:12px; }
 .credential-card h2 { font-size:28px; letter-spacing:-.045em; margin:0 0 10px; }
 .credential-card p { color:#747e8b; font-size:12px; line-height:1.75; max-width:500px; margin:0; }
-.achievement-strip { border:1px solid #222832; padding:30px; display:grid; grid-template-columns:.8fr 1.2fr; gap:30px; align-items:center; margin-bottom:12px; }
+.achievement-strip {
+  border: 1px solid #222832;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: .8fr 1.2fr;
+  gap: 30px;
+  align-items: start;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.achievement-strip h2 {
+  margin: 8px 0 0;
+  font-size: 25px;
+  letter-spacing: -.04em;
+}
+
+.achievement-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.achievement-list span {
+  border: 1px solid #29313d;
+  color: #a1aab7;
+  padding: 9px 12px;
+  font: 9px ui-monospace, monospace;
+  letter-spacing: .1em;
+}
+
+.achievement-strip .text-link {
+  grid-column: 2;
+  justify-self: end;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 4px;
+  color: #d9dde4;
+  font-size: 12px;
+  border-bottom: 1px solid #49515d;
+  padding-bottom: 6px;
+}
+
+.achievement-strip .text-link:hover {
+  color: #63a9ff;
+}
 .achievement-strip h2 { margin:8px 0 0; font-size:25px; letter-spacing:-.04em; }
 .achievement-list { display:flex; flex-wrap:wrap; gap:8px; justify-content:flex-end; }
 .achievement-list span { border:1px solid #29313d; color:#a1aab7; padding:9px 12px; font:9px ui-monospace,monospace; letter-spacing:.1em; }
