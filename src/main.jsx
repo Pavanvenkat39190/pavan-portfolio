@@ -282,7 +282,7 @@ function App() {
               <h2>Certifications & learning</h2>
             </div>
             <div className="achievement-list">
-              <span>56 GOOGLE CLOUD SKILL BADGES</span>
+              <span>55+ GOOGLE CLOUD SKILL BADGES</span>
               <span>AWS ACADEMY GRADUATE · CLOUD FOUNDATIONS</span>
               <span>ISRO · 2 WEEKS WORKSHOP</span>
             </div>
