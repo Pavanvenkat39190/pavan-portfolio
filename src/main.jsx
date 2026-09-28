@@ -85,28 +85,41 @@ function App() {
         <section id="work" className="section work">
           <div className="section-head">
             <div><span className="section-no">01</span><h2>Selected work</h2></div>
-            <p>Selected builds, plus one project currently moving toward a patent.</p>
+            <p>
+              Selected builds, including my interdisciplinary SIH major project
+              currently under development.
+            </p>
           </div>
 
           <article className="current-project">
             <div className="project-index">02 / CURRENTLY BUILDING</div>
             <div className="current-grid">
               <div>
-                <p className="project-label">INTERDISCIPLINARY MAJOR PROJECT · 4TH YEAR · 2026</p>
-                <h3>AI-Driven System<br />for Borewell Child Safety</h3>
+                <p className="project-label">SIH 2026 · INTERDISCIPLINARY MAJOR PROJECT · 4TH YEAR</p>
+                <h3>Passive Colorimetric H₂S<br />Exposure-Dosimeter Wristband</h3>
                 <p className="project-desc">
-                  An interdisciplinary engineering project focused on developing
-                  an AI-driven safety system for borewell-related child emergencies.
+                  A wearable safety system using a colorimetric chemical strip to detect
+                  hydrogen sulfide (H₂S) exposure, combined with AI-based image analysis,
+                  LLM-assisted intelligence, and blockchain-backed data handling for
+                  worker safety.
                 </p>
                 <div className="tags">
-                  <span>AI / SOFTWARE</span><span>ELECTRONICS</span><span>SYSTEM DESIGN</span><span>REAL-WORLD SAFETY</span>
+                  <span>SIH 2026</span>
+                  <span>AI / IMAGE ANALYSIS</span>
+                  <span>LLM</span>
+                  <span>BLOCKCHAIN</span>
+                  <span>WEARABLE</span>
+                  <span>WORKER SAFETY</span>
                 </div>
               </div>
               <div className="patent-panel">
-                <div className="patent-icon">AI</div>
+                <div className="patent-icon">H₂S</div>
                 <span className="status-badge">DEVELOPMENT</span>
-                <strong>PATENT IN PROGRESS</strong>
-                <small>Technical details intentionally kept private while the project is under development.</small>
+                <strong>PATENT PENDING</strong>
+                <div className="patent-id">Application No: 202641108991</div>
+                <small>
+                  Technical details intentionally kept private while the project is under development.
+                </small>
               </div>
             </div>
           </article>
@@ -115,7 +128,9 @@ function App() {
             <div className="project-index">01 / FEATURED PROJECT</div>
             <div className="project-grid">
               <div>
-                <p className="project-label">SMART DIGITAL TWIN</p>
+                <p className="project-label">
+                  INTEL UNNATI · INTERDISCIPLINARY PROJECT
+                </p>
                 <h3>Predictive maintenance for a 2-DOF robotic arm.</h3>
                 <p className="project-desc">
                   An intelligent digital twin combining reduced-order modelling,
